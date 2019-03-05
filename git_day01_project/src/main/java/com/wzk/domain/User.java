@@ -29,4 +29,8 @@ public class User implements Serializable {
                 ", age=" + age +
                 '}';
     }
+
+    public void eat() {
+        System.out.println(this.getUsername()+"要吃饭");
+    }
 }
